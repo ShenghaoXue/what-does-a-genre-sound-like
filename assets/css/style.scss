@@ -1,0 +1,29 @@
+---
+---
+
+$header-bg-color: #075e54;
+$header-bg-color-secondary: #16365d;
+$body-text-color: #273746;
+$section-headings-color: #075e54;
+
+@import "{{ site.theme }}";
+
+.project-tagline {
+  opacity: 1;
+}
+
+.btn {
+  color: #fff;
+}
+
+.main-content {
+  max-width: 76rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 42em) {
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
+}

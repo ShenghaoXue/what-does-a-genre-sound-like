@@ -1,0 +1,27 @@
+title: "What Does a Genre Sound Like?"
+author: "Shenghao Xue"
+description: "By Shenghao Xue"
+lang: en-US
+
+# GitHub Pages destination for the separate report repository.
+url: "https://shenghaoxue.github.io"
+baseurl: "/what-does-a-genre-sound-like"
+repository: "ShenghaoXue/what-does-a-genre-sound-like"
+
+# https://github.com/pages-themes/cayman#usage
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-titles-from-headings
+
+# Cayman displays the README heading in its banner, so render the title once.
+titles_from_headings:
+  enabled: true
+  strip_title: true
+
+show_downloads: false
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

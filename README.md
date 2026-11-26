@@ -1,1 +1,6 @@
-# what-does-a-genre-sound-like
+---
+layout: default
+permalink: /
+---
+
+# What Does a Genre Sound Like?
